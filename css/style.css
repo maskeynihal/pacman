@@ -1,0 +1,125 @@
+.main-container {
+  margin: 0 auto;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+}
+#playground {
+  background-color: rgb(0, 0, 0);
+}
+
+#game {
+  margin: 0 auto;
+  position: relative;
+}
+
+.screen {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column-reverse;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.button {
+  background-color: rgba(199, 192, 192, 0.8);
+  color: rgb(27, 27, 27);
+  font-weight: bolder;
+  height: 70px;
+  width: 120px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: rgba(199, 192, 192, 1);
+}
+
+.score-card {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.score-card > ul > li {
+  padding: 12px;
+}
+
+.score-board {
+  display: none;
+  width: 100;
+  background-color: black;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.backButtonContainer {
+  justify-content: start;
+}
+
+.back-button {
+  background: transparent;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.back-button:hover {
+  background-color: rgb(34, 34, 34);
+}
+
+.scoreboard-heading {
+  color: white;
+  font-size: 24px;
+  letter-spacing: 12px;
+}
+
+.scoreboard-table {
+  color: white;
+  align-items: flex-start;
+}
+
+.scoreboard-table > .score-table > table th {
+  font-size: 24px;
+  padding: 24px;
+}
+
+.scoreboard-table > .score-table > table td {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.score-table > h2 {
+  text-align: center;
+}
+
+#muteButton {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 530px;
+  cursor: pointer;
+}
+
+#muteButton:hover {
+  background-color: rgb(0, 0, 0);
+}
